@@ -82,6 +82,15 @@ print(s.getsockname())
 print(s.recv(1024).decode())
 s.send("acknowledgement recived from the server".encode())
 ```
+## Output:
+Client :
+![client 1a](https://github.com/MSDharanish-23011819/SocketStudy/assets/147139454/7c552be5-ce8c-40e7-acc2-6b560e811547)
+
+
+
+Server :
+![server 1a](https://github.com/MSDharanish-23011819/SocketStudy/assets/147139454/5841654e-2afa-45a7-8b0a-4dee55046e0a)
+
 
 
 ## Result:
