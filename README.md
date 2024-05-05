@@ -1,6 +1,6 @@
+### Ex.No:1a Study of Socket Programming
 ## NAME : DHARANISH MS
 ## REG NO : 212223240027
-## Ex.No:1a Study of Socket Programming
 
 ## Aim: 
 To perform a study on Socket Programming
