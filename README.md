@@ -1,6 +1,6 @@
-## Ex.No:1a Study of Socket Programming
-## NAME : DHARANISH MS
-## REG NO : 212223240027
+# Ex.No:1a Study of Socket Programming
+# NAME : DHARANISH MS
+# REG NO : 212223240027
 
 ## Aim: 
 To perform a study on Socket Programming
@@ -55,7 +55,7 @@ Socket programming finds applications in various domains, including web developm
 4.	Networked Games: Online multiplayer games rely on socket programming to facilitate communication between game clients and servers.
 5.	RPC mechanisms: which allow processes to execute code on a remote server, often use socket programming for communication.
 ## Program :
-Client :
+### Client :
 ```
 import socket
 from datetime import datetime
@@ -72,7 +72,7 @@ print(ack)
 c.close()
 ```
 
-Server :
+### Server :
 
 ```
 import socket
@@ -83,12 +83,12 @@ print(s.recv(1024).decode())
 s.send("acknowledgement recived from the server".encode())
 ```
 ## Output:
-Client :
+### Client :
 ![client 1a](https://github.com/MSDharanish-23011819/SocketStudy/assets/147139454/7c552be5-ce8c-40e7-acc2-6b560e811547)
 
 
 
-Server :
+### Server :
 ![server 1a](https://github.com/MSDharanish-23011819/SocketStudy/assets/147139454/5841654e-2afa-45a7-8b0a-4dee55046e0a)
 
 
